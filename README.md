@@ -2,6 +2,11 @@
 
 vagrant-itamae-command is a vagrant plugin for [Itamae](https://github.com/ryotarai/itamae)
 
+When used in conjunction with vagrant-serverspec.
+"sudo_password" is duplicated
+In order to use at the same time.
+It was not required to call the Itamae
+
 ## Example
 
 ```ruby
