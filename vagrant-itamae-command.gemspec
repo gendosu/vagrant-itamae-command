@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gendosu@gmail.com"]
   spec.summary       = %q{Vagrant plugin for itamae command}
   spec.description   = %q{Vagrant plugin for itamae command}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/gendosu/vagrant-itamae-command"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
