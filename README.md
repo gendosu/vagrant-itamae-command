@@ -13,7 +13,7 @@ It was not required to call the Itamae
 Vagrant.configure('2') do |config|
   config.vm.box = "ubuntu/trusty64"
 
-  config.vm.provision :itamae-command do |config|
+  config.vm.provision :"itamae-command" do |config|
     # execute command with sudo privilege(true or false)
     config.sudo = true
 
